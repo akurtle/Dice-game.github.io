@@ -43,25 +43,5 @@ document.getElementsByTagName("button")[0].onclick=function(){
 
 
 
-if(chooser1>chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Player 1 Wins"
-}
-
-else if(chooser1<chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Player 2 Wins"
-}
-
-else if(chooser1==chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Draw"
-}
-
-
-
-
-
-
-
-
-
 
 
