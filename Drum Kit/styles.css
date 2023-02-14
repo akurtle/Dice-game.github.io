@@ -3,6 +3,28 @@ body {
   background-color: #283149;
 }
 
+
+#nav-game{
+  color: aqua;
+  font-family: Lato;
+  transition: all 0.2s ease-in-out;
+}
+
+#nav-game:hover{
+  color:whitesmoke;
+}
+
+
+#nav-game-item{
+  color:aquamarine;
+  font-family: Lato;
+  transition: all 0.2s ease-in-out;
+}
+
+#nav-game-item:hover{
+  color:#a487fc;
+}
+
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
