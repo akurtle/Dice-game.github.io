@@ -13,7 +13,7 @@ var cubes= {
 
 
 
-document.getElementsByTagName("button")[0].onclick=function(){
+document.getElementsByTagName("button")[1].onclick=function(){
     
     var chooser1= Math.floor(Math.random()*6)+1
 
@@ -40,23 +40,18 @@ document.getElementsByTagName("button")[0].onclick=function(){
 
 
 
-
-
-
-if(chooser1>chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Player 1 Wins"
+document.getElementsByTagName("button")[0].onclick=function(){
+    
+    document.getElementsByClassName("title")[0].classList.remove("active");
+    document.getElementsByClassName("title")[0].classList.add("inactive");
+    
+    setInterval(()=>{
+        document.getElementsByClassName("play")[0].classList.remove("inactive");
+        document.getElementsByClassName("play")[0].classList.add("active");
+        },1000)
+    
+  
 }
-
-else if(chooser1<chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Player 2 Wins"
-}
-
-else if(chooser1==chooser2){
-    document.getElementsByClassName("winner")[0].innerHTML="Draw"
-}
-
-
-
 
 
 

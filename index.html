@@ -7,6 +7,10 @@
     <link rel="icon" href="C:/Users/yousu/Downloads/favicon_io/favicon.ico">
     <title>Dice Game</title>
 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     <!-- Fonts -->
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -26,7 +30,14 @@
  
 </head>
 <body style="background-color: #03001C">
-    <section class="all">
+
+    <section class="title active" style="position:absolute; margin-left:35%; margin-top:10%">
+        <img src="dicefav/android-chrome-512x512.png" id="titleimg">
+        <button type="button" class="btn btn-primary btn-lg btn-block">
+            Play
+        </button>
+    </section>
+    <section class="play inactive" style="position:absolute; margin-left: 25%;">
         <section class="winnerTitle">
             <div class="winner">
                 Click Play
