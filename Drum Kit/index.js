@@ -10,7 +10,17 @@ for(var i=0;i<length;i++){
     
     };
     document.addEventListener("keydown",function(event){
+        try {
+            document.getElementsByClassName(event.key+" drum")[0].style.color="black";
         charChecker(event.key)
+        setTimeout(() => {
+            document.getElementsByClassName(event.key+" drum")[0].style.color="#DA0463";
+        }, 100);
+        } catch (TypeError) {
+            console.log("Use one of the defined keys!")
+        }
+        
+        
     })
 
 function charChecker(char){

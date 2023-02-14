@@ -13,7 +13,7 @@ var cubes= {
 
 
 
-document.getElementsByTagName("button")[1].onclick=function(){
+document.getElementsByTagName("button")[2].onclick=function(){
     
     var chooser1= Math.floor(Math.random()*6)+1
 
@@ -40,7 +40,7 @@ document.getElementsByTagName("button")[1].onclick=function(){
 
 
 
-document.getElementsByTagName("button")[0].onclick=function(){
+document.getElementsByTagName("button")[1].onclick=function(){
     
     document.getElementsByClassName("title")[0].classList.remove("active");
     document.getElementsByClassName("title")[0].classList.add("inactive");
