@@ -19,10 +19,10 @@ document.getElementsByTagName("button")[2].onclick=function(){
 
     var chooser2= Math.floor(Math.random()*6)+1
 
-    document.getElementsByTagName("img")[0].src=cubes[chooser1]
+    document.getElementsByTagName("img")[1].src=cubes[chooser1]
 
 
-    document.getElementsByTagName("img")[1].src=cubes[chooser2] 
+    document.getElementsByTagName("img")[2].src=cubes[chooser2] 
 
 
     if(chooser1>chooser2){
