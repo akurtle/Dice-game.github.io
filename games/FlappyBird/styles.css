@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+#nav-game{
+    color: aqua;
+    font-family: Lato;
+    transition: all 0.2s ease-in-out;
+}
+
+#nav-game:hover{
+    color:whitesmoke;
+}
+
+#nav-game-item{
+    color:aquamarine;
+    font-family: Lato;
+}
+
+#nav-game-item:hover{
+    color:#a487fc;
+}
+
+#board{
+    margin-top: 50px;
+    background-image: url("resources/flappybirdbg.png");
+}

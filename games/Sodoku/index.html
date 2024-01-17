@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>Sodoku</title>
+    <link rel="stylesheet" href="../Sodoku/styles/styles.css">
+    <link rel="icon" href="../Sodoku/Images/sudoku.png">
+</head>
+
+   
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+        <a  id ="nav-game" class="navbar-brand" href="index.html" >Game</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a id ="nav-game-item" class="nav-item nav-link active" href="../Drum Kit/index.html" >Drum Game<span class="sr-only">(current)</span></a>
+          </div>
+          <div class="navbar-nav">
+            <a id ="nav-game-item" class="nav-item nav-link active" href="../../index.html" >Dice Game<span class="sr-only"><span></a>
+          </div>
+          <div class="navbar-nav">
+            <a id ="nav-game-item" class="nav-item nav-link active" href="../FlappyBird/index.html" >Flappy Bird<span class="sr-only"><span></a>
+          </div>
+        </div>
+      </nav>
+   
+    <div class="container">
+        <div class="title">Sodoku</div>
+        <div class="board">
+            <div class="block b1">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b2">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b3">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b4">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b5">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b6">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b7">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b8">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+            <div class="block b9">
+                <div class="grid g1">0</div>
+                <div class="grid g2">0</div>
+                <div class="grid g3">0</div>
+                <div class="grid g4">0</div>
+                <div class="grid g5">0</div>
+                <div class="grid g6">0</div>
+                <div class="grid g7">0</div>
+                <div class="grid g8">0</div>
+                <div class="grid g9">0</div>
+            </div>
+        </div>
+        <div class="buttonHolder">
+            <button type="button" class="solveButton">Solve</button>
+            <button type="button" class="resetButton">Reset</button>
+            <button type="button" class="randomButton">Random</button>
+            <button type="button" class="checkButton">Check</button>
+        </div>
+  
+    </div>
+
+<script type="text/javascript" src="../Sodoku/game.js"></script>
+<script type="text/javascript" src="../Sodoku/solve_ai.js"></script>
+</body>
+</html>
